@@ -142,6 +142,15 @@ void main()
 		
 	}
 	printf_s("Final score was: Computer %d | User %d ", scoreComputer, scoreHuman);
+
+	if (scoreHuman > scoreComputer)
+	{
+		printf_s("Human rules!!!!!!");
+	}
+	else
+	{
+		printf_s("Computer rules !!!!");
+	}
 }
 
 
